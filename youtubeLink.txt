@@ -1,28 +1,4 @@
 ## FORMAT: <channel name> - <Country>
 
-DW - Germany
-https://www.youtube.com/watch?v=idC4ZAleKtc
-
 Euro News - Germany
 https://www.youtube.com/watch?v=CQ3KsEbsYHs
-
-ABC News (US) - US
-https://www.youtube.com/watch?v=w_Ma8oQLmSM
-
-CNA - Singapore
-https://www.youtube.com/watch?v=XWq5kBlakcQ
-
-Al Jazeera English - Qatar
-https://www.youtube.com/watch?v=-upyPouRrB8
-
-France 24 English - France
-https://www.youtube.com/watch?v=jNhh-OLzWlE
-
-RT - Russia
-https://www.youtube.com/watch?v=V0I5eglJMRI
-
-Test Fail Link - FBK
-https://www.youtube.com/watch?v=aaa
-
-
-
