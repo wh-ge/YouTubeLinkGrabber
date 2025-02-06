@@ -10,7 +10,7 @@ def grab_youtube(url: str):
 Grabs the live-streaming M3U8 file from YouTube
     :param url: The YouTube URL of the livestream
     """
-    print(f'\n#url: {url}')
+    # print(f'\n#url: {url}')
     if '&' in url:
         url = url.split('&')[0]
 
@@ -49,7 +49,7 @@ channel_id = ''
 category = ''
 
 # Open text file and parse stream information and URL
-with open('./youtubeLink.txt', encoding='utf-8') as f:
+with open('./streams.txt', encoding='utf-8') as f:
     print("#EXTM3U")
     for line in f:
         line = line.strip()
@@ -60,7 +60,8 @@ with open('./youtubeLink.txt', encoding='utf-8') as f:
             channel_name = line[0].strip()
             channel_id = line[1].strip()
             category = line[2].strip().title()
-            print(f'\n#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="{category}", {channel_name}')
+            print(
+                f'\n#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="{category}", {channel_name}')
         else:
             if urlparse(line).netloc == 'www.youtube.com':
                 grab_youtube(line)
