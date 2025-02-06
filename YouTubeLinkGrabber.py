@@ -5,12 +5,9 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
-def grab_youtube(url: str):
-    """
 Grabs the live-streaming M3U8 file from YouTube
     :param url: The YouTube URL of the livestream
     """
-    # print(f'\n#url: {url}')
     if '&' in url:
         url = url.split('&')[0]
 
@@ -22,9 +19,6 @@ Grabs the live-streaming M3U8 file from YouTube
 
     if '.m3u8' not in response or stream_info.status_code != 200:
         print("https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4")
-        print(f'\n#url: {url}')
-        #print("response:")
-        #print(response)
         return
     end = response.find('.m3u8') + 5
     tuner = 100
