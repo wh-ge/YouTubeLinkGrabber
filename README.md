@@ -15,4 +15,4 @@ https://www.youtube.com/watch?v=idC4ZAleKtc
 2. Run the cron job in GitHub
 3. Put the link `https://raw.githubusercontent.com/<username>/YouTubeLinkGrabber/main/youtube.m3u8` to your IPTV app.
 
-You can also run the program locally by `python YouTubeLinkGrabber.py > YouTubeLive.m3u` or by `chmod +x exec_grabber.sh && ./exec_grabber.sh`.
+You can also run the program locally by `python YouTubeLinkGrabber.py > YouTubeLive.m3u8` or by `chmod +x exec_grabber.sh && ./exec_grabber.sh`.
