@@ -10,7 +10,7 @@ def grab_youtube(url: str):
 Grabs the live-streaming M3U8 file from YouTube
     :param url: The YouTube URL of the livestream
     """
-    print(f'\n#url: {url}')
+    #print(f'\n#url: {url}')
     if '&' in url:
         url = url.split('&')[0]
 
