@@ -1,4 +1,7 @@
 name: LinkGrabber
+        
+  env:
+    LG_USERNAME: ${{ github.actor }}
 
 on:
   schedule:
@@ -18,10 +21,11 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Grab Link
+      
 
         run: |
-          git config --global user.name "${GH_USERNAME}"
-          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
+          git config --global user.name "${LG_USERNAME}"
+          git config --global user.email "${LG_USERNAME}@users.noreply.github.com"
           git config user.name
           git config user.email
           chmod +x exec_grabber.sh && ./exec_grabber.sh
@@ -29,5 +33,3 @@ jobs:
           git commit -m "./youtubeLink.txt is updated."
           git push
 
-          env:
-          GRAB_USERNAME: ${{ github.actor }}
