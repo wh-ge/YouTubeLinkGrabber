@@ -1,6 +1,8 @@
 #! /usr/bin/python3
-import requests
 import os
+from urllib.parse import urlparse
+
+import requests
 
 def grab_youtube(url: str):
     """
