@@ -1,8 +1,5 @@
 name: LinkGrabber
         
-  env:
-    LG_USERNAME: ${{ github.actor }}
-
 on:
   schedule:
     - cron: '*/60 * * * *'
@@ -11,6 +8,10 @@ on:
     branches: [ main ]
 
   workflow_dispatch:
+  
+env:
+  LG_USERNAME: ${{ github.actor }}
+
 jobs:
 
   runCode:
