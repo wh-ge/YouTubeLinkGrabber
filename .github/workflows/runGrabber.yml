@@ -1,6 +1,6 @@
 name: LinkGrabber
     xx    
-on:
+xxon:
   schedule:
     - cron: '*/60 * * * *'
 
