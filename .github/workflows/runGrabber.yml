@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   
 env:
-  LG_USERNAME: ${{ github.actor }}
+  GH_USERNAME: ${{ github.actor }}
 
 jobs:
 
@@ -25,8 +25,8 @@ jobs:
       
 
         run: |
-          git config --global user.name "${LG_USERNAME}"
-          git config --global user.email "${LG_USERNAME}@users.noreply.github.com"
+          git config --global user.name "${GH_USERNAME}"
+          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
           git config user.name
           git config user.email
           chmod +x exec_grabber.sh && ./exec_grabber.sh
