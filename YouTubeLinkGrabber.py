@@ -5,7 +5,8 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
-Grabs the live-streaming M3U8 file from YouTube
+def grab_youtube(url: str):
+    """
     :param url: The YouTube URL of the livestream
     """
     if '&' in url:
@@ -43,7 +44,7 @@ channel_id = ''
 category = ''
 
 # Open text file and parse stream information and URL
-with open('./streams.txt', encoding='utf-8') as f:
+with open('./youtubeList.txt', encoding='utf-8') as f:
     print("#EXTM3U")
     for line in f:
         line = line.strip()
