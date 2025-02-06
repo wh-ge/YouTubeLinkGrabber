@@ -20,8 +20,13 @@ jobs:
       - name: Grab Link
 
         run: |
-          git config --global user.email "wh-ge@hll.localhost"
-          git config --global user.name "wh-ge"
+          git log -1 --pretty=format:'%an'
+          git log -1 --pretty=format:'%ae'
+          git config --global user.name "$(git log -1 --pretty=format:'%an')"
+          git config --global user.email "$(git log -1 --pretty=format:'%ae')"
+          git config --list
+          #git config --global user.email "wh-ge@hll.localhost"
+          #git config --global user.name "wh-ge"
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
           git commit -m "./youtubeLink.txt is updated."
