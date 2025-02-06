@@ -10,7 +10,7 @@ https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream
 
 #url: https://www.youtube.com/watch?v=tZT2MCYu6Zw
 
-#EXTINF:-1 tvg-id="DWNachrichten.yt" tvg-name="DW Nachrichten" group-title="News", DW Nachrichten
+#EXTINF:-1 tvg-id="DWGermany.yt" tvg-name="DW - Germany" group-title="News", DW - Germany
 https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4
 
 #url: https://www.youtube.com/watch?v=idC4ZAleKtc
