@@ -20,7 +20,7 @@ jobs:
       - name: Grab Link
 
         run: |
-          git config --global user.email "wallersheim@web.de"
+          git config --global user.email "wh-ge@example.com"
           git config --global user.name "wh-ge"
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
