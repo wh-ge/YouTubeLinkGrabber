@@ -23,9 +23,8 @@ jobs:
 
       - name: Grab Link
       
-
         run: |
-          echo "$GITHUB_CONTEXT"
+          #echo "$GITHUB_CONTEXT"
           git config --global user.name "${GH_USERNAME}"
           git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
           git config user.name
