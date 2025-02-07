@@ -1,0 +1,4 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="EuronewsDE.yt" tvg-name="Euronews DE" group-title="News", Euronews DE
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1738972376/ei/eEimZ7DfB6jD6dsP8M2SsAE/ip/78.34.22.161/id/pykpO5kQJ98.3/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/de/bui/AUWDL3xeJo2aWOCsJlB6O7d-shBDli6G2NaXdyDra9XOj-SPg7QQgiu-qJ7VdFt8tFOTdc3PSOtABW22/spc/RjZbSUYOszM5L6OzWCyZfwB1UBXRaor7dIVjmu9azukMdBywgaCdgCP8JbM5GojGvt2NPxc/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALaUba4jN7A5uoh20iSpVnDlOjMvfkoFwNRoqhgxsLgBAiEA9So7OebXnVstGYgUXBDSYDuZn9uhD-ud12af2u1yq4s%3D/file/index.m3u8
